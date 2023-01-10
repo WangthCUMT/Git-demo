@@ -29,4 +29,4 @@ with pd.ExcelWriter('57train.xlsx') as writer:
     df1.to_excel(writer, sheet_name='熵',index=False)
     df2.to_excel(writer, sheet_name='同质度', index=False)
     df3.to_excel(writer, sheet_name='对比度', index=False)
-    df4.to_excel(writer, sheet_name='能量', index=False)
+    df4.to_excel(writer, sheet_name='能量', index=False) #这里写的不好
